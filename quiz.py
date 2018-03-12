@@ -1,4 +1,4 @@
-f = open('questions.txt', 'r')
+f = open('questions.txt')
 lines = f.readlines()
 f.close()
 print lines
